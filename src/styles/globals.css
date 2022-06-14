@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  body {
+    @apply overflow-hidden;
+  }
+  input:checked + div {
+    @apply border-0 bg-pink-500;
+  }
 
-body{
-
-@apply overflow-hidden;
-
-
+  input:checked + div > svg {
+    @apply block;
+  }
 }

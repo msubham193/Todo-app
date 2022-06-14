@@ -1,0 +1,30 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "name": "Task 1",
+            "description": "Description 1",
+            "isCompleted": false,
+            "relatedTasks": [
+                {
+                    "id": 1,
+                    "name": "Task 1",
+                    "description": "Description 1",
+                    "isCompleted": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Task 2",
+            "description": "lorem ipsum hello world",
+            "isCompleted": false
+        },
+        {
+            "id": 3,
+            "name": "lorem ipsum hello world lorem ipsum hello world",
+            "description": "this is new description",
+            "isCompleted": true
+        }
+    ]
+}
